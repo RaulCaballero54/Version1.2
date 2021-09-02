@@ -4,39 +4,55 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
-    <title>Mi primera aplicacion HTML. Caballero Ramírez Raul Alejandro</title>
-  </head>
-  <body>
-    <h1>Blog de Raúl Caballero</h1>
-    <h2>Persona</h2>
-    <h3>Raúl Alejandro Caballero Ramírez</h3>
-    <h3>
-      Estudiante de 22 años en la Falcultad de Ingenierias de la Universidad
-      Autonoma de Campeche
-    </h3>
-    <h3>Vivo en San Francisco de Campeche, Campeche</h3>
-    <h3>
-      Mi familia es mi madre, mi padre, mis abuelos, tios y primas del lado
-      materno, además de mi perro Pipian y mi gata Ziva
-    </h3>
-    <h2>Metas y motivaciones</h2>
-    <h3>Me gustaria dejar algo por lo que ser recordado de buena manera</h3>
-    <h3>Mi energia lo saco de hacer sentir a mi familia orgullosa</h3>
-    <h3>
-      Lo que me puede detener es la falta de tiempo y dinero en varios de mis
-      proyectos
-    </h3>
-    <h3>
-      La unica cosa que me no me deja dormir, (ademas de los problemas que puede
-      tener mi familia), es la música del vecino
-    </h3>
-    <h2>Un dia en mi vida</h2>
-    <h3>
-      Me siento bien al no escuchar noticias malas con respecto a mi familia,
-      pues ellos son con los que mas interactuo y con los que me siento
-      satisfecho
-    </h3>
-    <h2>Mi personalidad</h2>
+
+<title>Mi Blog</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Lobster&display=swap" rel="stylesheet">
+/>
+<link rel="stylesheet" href="styles/styles.css" />
+</head>
+
+<body>
+<div class="container">
+  <nav class="nav-main">
+    <ul>
+      <li>
+        <a href="#">Video Juegos</a>
+      </li>
+      <li>
+        <a href="#">Arte</a>
+      </li>
+      <li>
+        <a href="#">Traducciones</a>
+      </li>
+    </ul>
+  </nav>
+
+  <hr>
+  <header class="showcase">
+    <h1 align="center">MI Blog Personal</h1>
+    <p> <h4>En el presente Blog redactare cosas acerca de mi, tales como gustos y personalidad </p></h4>
+    <br><a href="#" class="btn" > Registrarse <i class="fas fa-chevron-right"></i></a><br><br>
+    
+    <h2>Acerca de mi</h2>
+    <h4>Lopez Lopez Erika Paola</h4>
+    <h4>Estudiante de 22 años en la Falcultad de Ingenierias de la Universidad Autonoma de Campeche</h4>
+    <h4>Vivo en Conquista Campesina,Carmen, Campeche</h4>
+    <h4>Mi familia es mi madre, mi padre y mis 2 hermanos (un Hermano mayor y una Hermana menor)</h4>
+    
+    <br><h2>Metas y motivaciones</h2>
+    <h4>Me gustaria poder vivir, es decir, hacer e ir a donde yo quiera sin que me lo cuestionen o prohíban </h4>
+    <h4>Mi energia sale cuando me imagino cumplir mi sueños y mi familia</h4>
+    <h4>Lo que actualmente me deteniene es la falta de luz e internet para poder
+      ser mas a autodidacta con mis estudios en mi tiempo libre. </h4>
+    <h4> Bendito dios no tengo cosas que me impidan dormir excepto los típicos problemas familiares.</h4>
+    
+    <br><h2>Un dia en mi vida</h2>
+    <h4>Me hace sentir satisfecho saber que aprendí algo nuevo cada dia, lo que me
+      frustra es no pder entender lo que estoy estudiando.</h4>
+    
+      <br><h2>Mi personalidad</h2>
     <p>
       Elite
       <input type="range" min="1" max="10" />
@@ -62,16 +78,23 @@
       <input type="range" min="1" max="10" />
       Joven
     </p>
-    <h2>Valores y creencias</h2>
-    <h3>
-      Me gustan las manualidades, las carreras a todo terreno, los videojuegos
-      de Nintendo, la musica energica y rápida, pero sobre todo, es el amor al
-      dibujo
-    </h3>
+    <br><h2>Valores y creencias</h2>
+    <h4> Me gustan jugar volleyball y basquetball, me encanta el anime y los videojuegos también leer novelas.</h4>
 
-    <a>Uacam</a>
-    <a href="">YouTube</a>
-    <a href="https://twitter.com/home">ISC</a>
-    <img src="Octo.png" />
-  </body>
+    <br><hr><footer>
+      <div><br><h2>Redes sociales</h2>
+        <img src="Octo.png" style="float:right;" alt="" width="100" height="100" /><ul >
+        <li><a href="#" >Facebook</a></li>
+        <li><a href="#">Twitter</a></li>
+        <li><a href="#">YouTube</a></li>
+        
+      </ul>
+    </div>
+    </footer>
+      
+    <script src="https://unpkg.com/scrollreveal"></script>
+    <script src="scripts/main.js"></script>
+  
+</div>
+</body>
 </html>
